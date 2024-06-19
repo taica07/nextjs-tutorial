@@ -17,7 +17,7 @@ const PrismaPage = async () => {
       <h1 className="text-3xl font-medium mb-4">Prisma Example</h1>
       {tasks.map((task) => (
         <h2 key={task.id} className="text-xl py-2">
-          😬 {task.content}
+          ✅{task.content}
         </h2>
       ))}
     </div>
